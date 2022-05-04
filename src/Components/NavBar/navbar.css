@@ -1,0 +1,29 @@
+.navbar-container {
+    display: flex;
+    background-color: #DEB6AB;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.item1,
+.item2,
+.item3 {
+    font-size: larger;
+    padding: 10px 12px;
+    margin: 8px;
+    display: flex;
+    background: #F8ECD1;
+    border-radius: 8px;
+    border: solid;
+    border-color: #85586F;
+}
+
+a:link {
+    text-decoration: none;
+}

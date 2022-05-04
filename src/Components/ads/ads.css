@@ -1,0 +1,15 @@
+.ads {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-items {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background: #F8ECD1;
+    border-radius: 15px;
+    border: solid;
+}

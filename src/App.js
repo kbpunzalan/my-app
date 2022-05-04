@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import { myFriends, mainContent, allAds } from './array';
+import NavBar from './Components/NavBar/NavBar';
+import Friends from './Components/friends/Friends';
+import Ads from './Components/ads/Ads';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div className='container'>
+        <div className='all-contents'>
+          <div className='navbar'>
+            <NavBar />
+          </div>
+
+          <div className='content'>
+            <div className='lsidebar'>
+              <h2>FRIENDS</h2>
+              <Friends data={myFriends} />
+            </div>
+
+            <div className='center'>
+              {/* <NavBar />  */}
+            </div>
+
+            <div className='rsidebar'>
+              <h2>ADS</h2>
+              <Ads data={allAds}/>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </body>
+
   );
 }
 
