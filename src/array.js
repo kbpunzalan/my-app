@@ -17,8 +17,10 @@ const myFriends = [
     { name: "Yor Cutie", image: yor, mutual: 9999999, id: 6} 
 ];
 
-const mainContent = [
-
+const friendPost = [
+    { author: myFriends[3].name, image: myFriends[3].image, timestamp: "01/18/2022 | 11:37", content: "Nak ung cnaing! Pataye n at bka msunog!" },
+    { author: myFriends[3].name, image: myFriends[3].image, timestamp: "01/18/2022 | 11:40",content: "Sorry, Metuhh friends. I thought the previous post was a direct message. Will delete the post later." },
+    { author: myFriends[5].name, image: myFriends[5].image, timestamp: "05/05/2022 | 16:19", content: "Anime Waifus for LENI-KIKO! 🌸🌸" }
 ];
 
 
@@ -29,4 +31,4 @@ const allAds = [
     { description: 'Ano itong pinasok sa ref na tumigas? Alamin!', image: ref, id: 2 }
 ];
 
-export { myFriends, mainContent, allAds }
+export { myFriends, friendPost, allAds }

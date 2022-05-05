@@ -1,9 +1,9 @@
 import './App.css';
-import { myFriends, mainContent, allAds } from './array';
+import { myFriends, friendPost, allAds } from './array';
 import NavBar from './Components/NavBar/NavBar';
 import Friends from './Components/friends/Friends';
+import Post from './Components/post/Post';
 import Ads from './Components/ads/Ads';
-
 
 function App() {
   return (
@@ -21,7 +21,9 @@ function App() {
             </div>
 
             <div className='center'>
-              {/* <NavBar />  */}
+                            
+              <h2>POSTS</h2>
+              <Post data={friendPost} />
             </div>
 
             <div className='rsidebar'>

@@ -11,6 +11,8 @@
     background: #F8ECD1;
     border-radius: 15px;
     border: solid;
+    max-width: 90%;
+    flex-grow: 1;
 }
 
 .f-image {

@@ -27,4 +27,24 @@
 
 a:link {
     text-decoration: none;
+    color: #85586F;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: #85586F;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover {
+    background: #85586F;
+    color:#F8ECD1;
+    border-color: #DEB6AB;
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
 }
