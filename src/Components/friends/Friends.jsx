@@ -10,10 +10,10 @@ class Friends extends React.Component {
                     myFriends.map((myFriends) => {
                         return (
                             <div className='separate'>
-                                <div className='items'>
+                                <div className='items' key={myFriends.id}>
                                     <img src={myFriends.image} className='f-image' />
                                     <div className='friends-text'>
-                                        <span className='friend-name' key={myFriends.id}>{myFriends.name}</span>
+                                        <span className='friend-name'>{myFriends.name}</span>
                                         <span> {myFriends.mutual} Mutual Friends</span>
                                     </div>
                                 </div>

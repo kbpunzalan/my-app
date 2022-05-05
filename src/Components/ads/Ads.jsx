@@ -9,9 +9,11 @@ class Ads extends React.Component {
                 {
                     allAds.map((allAds) => {
                         return (
-                            <div className='ad-items'>
-                                <div key={allAds.id}>{allAds.description}</div>
-
+                            <div className='separate'>
+                                <div className='ad-items' key={allAds.id}>
+                                    <img src={allAds.image} className='a-image' />
+                                    <span>{allAds.description}</span>
+                                </div>
                             </div>
                         )
                     })
