@@ -27,7 +27,7 @@ const friendPost = [
 
 
 const allAds = [
-    { description: 'Mother Earth, flat na nga ba!?', image: earth, id: 1 },
+    { description: 'Mother Earth, flat nga ba talaga?', image: earth, id: 1 },
     { description: 'Ano itong pinasok sa ref na tumigas? Alamin!', image: ref, id: 2 }
 ];
 

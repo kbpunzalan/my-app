@@ -25,6 +25,8 @@ body {
 .all-contents {
     display: flex;
     flex-direction: column;
+    min-width: 100%;
+    max-width: 0px;
 }
 
 
@@ -55,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 5;
+    margin-bottom: 10px;
 }
 
 .rsidebar {

@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Friends from './Components/friends/Friends';
 import Post from './Components/post/Post';
 import Ads from './Components/ads/Ads';
+import Form from './Components/form/Form';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             </div>
 
             <div className='center'>
-                            
+              <Form />
               <h2>POSTS</h2>
               <Post data={friendPost} />
             </div>
