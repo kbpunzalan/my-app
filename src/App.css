@@ -29,7 +29,7 @@ body {
 
 
 .lsidebar, .rsidebar, .center {
-    margin: 10px 10px;
+    margin: 10px 0px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 5;
+    margin: 10px 10px;
 }
 
 .rsidebar {
@@ -67,5 +68,5 @@ h2 {
 }
 
 Form {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
